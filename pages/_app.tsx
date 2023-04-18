@@ -127,6 +127,46 @@ const App = (props: React.PropsWithChildren) => {
                     canDelete: true,
                   },
                 },
+                {
+                  name: "prospects",
+                  list: "/prospects",
+                  create: "/prospects/create",
+                  edit: "/prospects/edit/:id",
+                  show: "/prospects/show/:id",
+                  meta: {
+                    canDelete: true,
+                  },
+                },
+                {
+                  name: "grants",
+                  list: "/grants",
+                  create: "/grants/create",
+                  edit: "/grants/edit/:id",
+                  show: "/grants/show/:id",
+                  meta: {
+                    canDelete: true,
+                  },
+                },
+                {
+                  name: "products",
+                  list: "/products",
+                  create: "/products/create",
+                  edit: "/products/edit/:id",
+                  show: "/products/show/:id",
+                  meta: {
+                    canDelete: true,
+                  },
+                },
+                {
+                  name: "contacts",
+                  list: "/contacts",
+                  create: "/contacts/create",
+                  edit: "/contacts/edit/:id",
+                  show: "/contacts/show/:id",
+                  meta: {
+                    canDelete: true,
+                  },
+                },
               ]}
               options={{
                 syncWithLocation: true,
